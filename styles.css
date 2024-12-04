@@ -38,12 +38,26 @@
 }
 
 /* Base */
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--color-primary-dark);
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-size: 18px;
   font-weight: 400;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0;
 }
 
 address {
@@ -52,10 +66,30 @@ address {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.section {
+  padding: 48px 0;
+}
+.container {
+  width: 100%;
+  max-width: 1288px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
 /* Button  */
 .button {
+  padding: 16px 32px;
   color: var(--color-ptimary-light);
   background-color: var(--color-brand-light);
   border: 2px solid var(--color-brand-light);
@@ -81,13 +115,47 @@ ul {
   font-weight: 600;
 }
 
+/* Header */
+.header {
+  background-color: lightgray;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-nav {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-menu {
+  display: flex;
+  gap: 64px;
+  flex-grow: 1;
+  justify-content: center;
+}
+/* 
+.header-item {
+  margin-right: 64px;
+}
+
+.header-item:last-child {
+  margin-right: 0;
+} */
+
 /* Hero section */
+.hero-section {
+  padding: 272px 0;
+}
 .hero-title {
+  margin-bottom: 0;
   color: var(--color-ptimary-light);
   text-align: center;
   font-size: 128px;
   font-weight: 900;
-
   /* text-transform: capitalize; */
 }
 
@@ -96,14 +164,22 @@ ul {
 }
 
 /* Advantages stction */
-.advantages-list {
-  color: var(--color-ptimary-light);
+
+.advantages-section {
   background-color: var(--color-brand-light);
+  padding: 16px 0;
+}
+
+.advantages-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
 }
 
 .advantages-item {
   font-size: 20px;
   font-weight: 300;
+  color: var(--color-ptimary-light);
 }
 
 .section-title {
@@ -118,6 +194,24 @@ ul {
 
 /* traditions-section */
 
+.traditions-section {
+  padding-top: 96px;
+}
+
+.traditions-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.tradidions-content {
+  max-width: 710px;
+}
+
+.traditions-title {
+  margin-bottom: 42px;
+}
+
 .traditions-text .brand {
   color: var(--color-brand-light);
   font-weight: 600;
@@ -126,11 +220,19 @@ ul {
 .traditions-text .uppercase {
   text-transform: uppercase;
 }
+.traditions-text.limited {
+  max-width: 340px;
+}
 
 /* Chefs sector */
 .chef-title {
   font-size: 40px;
   font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.chefs-title {
+  margin-bottom: 80px;
 }
 
 /* Formats section */
@@ -138,9 +240,20 @@ ul {
   font-size: 24px;
   font-weight: 600;
 }
+.formats-title {
+  margin-bottom: 80px;
+}
 .format-text {
   font-size: 14px;
   font-weight: 300;
+}
+.section-title {
+  margin-bottom: 80px;
+}
+
+/* Contact cection */
+.contact-title {
+  margin-bottom: 16px;
 }
 /* Footer */
 .adress-link {
