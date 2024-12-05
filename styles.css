@@ -100,7 +100,6 @@ ul {
 
 .button:hover {
   color: var(--color-brand-dark);
-
   background-color: transparent;
 }
 
@@ -149,6 +148,12 @@ ul {
 /* Hero section */
 .hero-section {
   padding: 272px 0;
+  background-image: url('../Images/couple-in\ -bakery.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  /* background-attachment: fixed; */
+  /* background: url('../Images/couple-in\ -bakery.jpg') no-repeat center/top cover;
 }
 .hero-title {
   margin-bottom: 0;
@@ -236,6 +241,20 @@ ul {
 }
 
 /* Formats section */
+.formats-list {
+  display: flex;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+}
+.format-card {
+  padding: 24px;
+  border-radius: 16px;
+  border: 1px solid lightgray; /*remove*/
+}
+.formats-item {
+  flex-basis: calc((100%-40px) / 3);
+}
+
 .format-title {
   font-size: 24px;
   font-weight: 600;
