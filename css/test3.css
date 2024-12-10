@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.parent {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  border: 1px dotted black;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.item.red {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  transform: translateX(-20px);
+}
+
+.item.green {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transform: rotate(0.5turn);
+}
+
+.item.blue {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  transform: scale(0.5);
+}
+.item.orange {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  transform: skew(20deg);
+}
