@@ -1,0 +1,424 @@
+/* roboto-condensed-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-condensed-v27-latin-regular.woff2') format('woff2');
+}
+/* roboto-condensed-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/roboto-condensed-v27-latin-italic.woff2') format('woff2');
+}
+/* roboto-condensed-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/roboto-condensed-v27-latin-600.woff2') format('woff2');
+}
+/* roboto-condensed-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-condensed-v27-latin-700.woff2') format('woff2');
+}
+/* play-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+/* play-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+:root {
+  --color-brand-main: #2b7fff;
+  --color-brand-dark: #011c44;
+  --color-brand-light: #ffffff;
+  --color-second-coment: #4a4a4a;
+  --color-second-dark: #000000;
+  --color-second-notes: #747272;
+}
+
+/* Base */
+body {
+  color: var(--color-brand-dark);
+  font-family: Roboto, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* header */
+.header-link {
+  color: var(--color-brand-dark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+
+  text-decoration: none;
+  width: 73px;
+  height: 21px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.header-link:hover {
+  color: var(--color-brand-main);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* Baner-section */
+
+.hero-title {
+  color: var(--color-brand-main);
+  font-family: Play, sans-serif;
+  font-size: 140px;
+  font-weight: 700;
+  line-height: 0.81;
+
+  text-align: center;
+  width: 529px;
+  height: 228px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.hero-title .accent {
+  color: var(--color-brand-dark);
+  text-transform: capitalize;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.17;
+
+  width: 199px;
+  height: 21px;
+
+  gap: 0px;
+  opacity: 0px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.hero-coment {
+  width: 238px;
+  height: 36px;
+  color: var(--color-second-coment);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  gap: 0px;
+  opacity: 0px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.button-order {
+  background: var(--color-brand-main);
+  color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-main);
+  border-radius: 32px;
+
+  width: 219px;
+  height: 53px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+
+  opacity: 0px;
+  cursor: pointer;
+}
+.button-order:hover {
+  background: transparent;
+  color: var(--color-brand-dark);
+
+  border: 2px solid var(--color-brand-main);
+}
+/* About-us-section */
+.about-us-title {
+  color: var(--color-brand-dark);
+  width: 529px;
+  height: 148px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74.05px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.about-us-title .accent {
+  color: var(--color-brand-main);
+  text-transform: capitalize;
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 74.05px;
+
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.about-us-text {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.72;
+
+  width: 709px;
+  height: 76px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.about-us-p .accent {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.72;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* why-we */
+
+.why-we-title {
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.16;
+
+  width: 432px;
+  height: 148px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.why-we-title .accent {
+  color: var(--color-brand-main);
+}
+
+.why-we-list {
+  color: var(--color-second-dark);
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.33;
+
+  width: 252px;
+  height: 72px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* procedures-section */
+
+.procedures-title {
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.16;
+
+  width: 510px;
+  height: 74px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.procedures-title .accent {
+  color: var(--color-brand-main);
+}
+
+.procedures-types {
+  color: var(--color-brand-light);
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.18;
+
+  width: 152px;
+  height: 52px;
+  top: 372px;
+  left: 115px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+/* contacts-section */
+
+.contacts-title {
+  font-family: Play, sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.16;
+
+  width: 432px;
+  height: 75px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.contacts-title .accent {
+  color: var(--color-brand-main);
+}
+
+.contacts-second-title {
+  color: var(--color-brand-light);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.17;
+
+  width: 274px;
+  height: 52px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.contacts-second-title .accent {
+  color: var(--color-brand-main);
+}
+
+.button-free {
+  background: var(--color-brand-main);
+  color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-main);
+
+  width: 281px;
+  height: 53px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 32px;
+  opacity: 0px;
+}
+
+.button-free:hover {
+  background: transparent;
+  color: var(--color-brand-dark);
+  border: 2px solid var(--color-brand-main);
+}
+
+.contacts-note {
+  color: var(--color-second-notes);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  width: 213px;
+  height: 36px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.contacts-note .accent {
+  text-decoration-line: underline;
+  text-decoration: solid;
+}
+
+/* footer */
+
+.footer-navigate,
+.footer-adress,
+.footer-politics {
+  color: var(--color-brand-light);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.17;
+
+  text-decoration-line: none;
+  width: 203px;
+  height: 19px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-style: normal;
+}
+
+.footer-data {
+  color: var(--color-second-notes);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.17;
+
+  width: 203px;
+  height: 15px;
+  gap: 0px;
+  opacity: 0px;
+
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-style: normal;
+}
